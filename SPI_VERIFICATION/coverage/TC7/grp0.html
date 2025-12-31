@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Group :: spi_test_pkg::spi_scoreboard::apb_cov</title>
+<link type="text/css" rel="stylesheet" href="css/urg.css">
+<link type="text/css" rel="stylesheet" href="css/layout.css">
+<link type="text/css" rel="stylesheet" href="css/breadcrumb.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/sortable.js"></script>
+<script type="text/javascript" src="js/layout.js"></script>
+<script type="text/javascript" src="js/breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Group : spi_test_pkg::spi_scoreboard::apb_cov</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | <a href="asserts.html" ><b>asserts</b></a></div>
+
+</div>
+<div class="ui-layout-west">
+<div>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Group : <a href="#"  onclick="showContent('spi_test_pkg::spi_scoreboard::apb_cov')">spi_test_pkg::spi_scoreboard::apb_cov</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td><b>SCORE</b></td><td>INSTANCES</td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>PER INSTANCE</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="s8 cl rt"> 86.67</td>
+<td class="s8 cl rt"> 86.67</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home1/B120/GokulK/VLSI_RN_ONLINE/UVM_LABS/mini_project/sim/../tb/spi_scoreboard.sv')">/home1/B120/GokulK/VLSI_RN_ONLINE/UVM_LABS/mini_project/sim/../tb/spi_scoreboard.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>1 Instances:</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td><b>SCORE</b></td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="wht cl wordwrap"><a href="grp0.html#inst_tag_top.me.obj.apb_cov"  onclick="showContent('top.me.obj.apb_cov')">top.me.obj.apb_cov</a></td>
+<td class="s8 cl rt"> 86.67</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+</div>
+<hr>
+<br clear=all>
+<span class=repname>Summary for Group   spi_test_pkg::spi_scoreboard::apb_cov
+</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s8">
+<td><a href="#var_tbl_spi_test_pkg::spi_scoreboard::apb_cov" >Variables</a></td>
+<td class="rt">17</td>
+<td class="rt">3</td>
+<td class="rt">14</td>
+<td class="rt">86.67 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="var_tbl_spi_test_pkg::spi_scoreboard::apb_cov">Variables for Group  spi_test_pkg::spi_scoreboard::apb_cov
+</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">VARIABLE</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>COMMENT</td></tr><tr class="s5">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.reset"  onclick="checkLink(this)" target="detailFrame">reset</a></td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">2</td>
+<td></td>
+</tr><tr class="s8">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.addr"  onclick="checkLink(this)" target="detailFrame">addr</a></td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">4</td>
+<td class="rt">80.00 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">8</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.selx"  onclick="checkLink(this)" target="detailFrame">selx</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.enable"  onclick="checkLink(this)" target="detailFrame">enable</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.write"  onclick="checkLink(this)" target="detailFrame">write</a></td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">2</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.PREADY"  onclick="checkLink(this)" target="detailFrame">PREADY</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.error"  onclick="checkLink(this)" target="detailFrame">error</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s5">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.wdata"  onclick="checkLink(this)" target="detailFrame">wdata</a></td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.rdata"  onclick="checkLink(this)" target="detailFrame">rdata</a></td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+</div>
+<div name='top.me.obj.apb_cov'>
+<a name="inst_tag_top.me.obj.apb_cov"></a>
+<hr>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Group Instance : <a href="groups.html#tag_top.me.obj.apb_cov" >top.me.obj.apb_cov</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td><b>SCORE</b></td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="s8 cl rt"> 86.67</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+</div>
+<hr>
+<br clear=all>
+<span class=repname>Summary for Group Instance   top.me.obj.apb_cov
+</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s8">
+<td><a href="#var_tbl_top.me.obj.apb_cov" >Variables</a></td>
+<td class="rt">17</td>
+<td class="rt">3</td>
+<td class="rt">14</td>
+<td class="rt">86.67 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="var_tbl_top.me.obj.apb_cov">Variables for Group Instance  top.me.obj.apb_cov
+</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">VARIABLE</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>COMMENT</td></tr><tr class="s5">
+<td><a href="#inst_tag_top.me.obj.apb_cov.reset"  onclick="checkLink(this)" target="detailFrame">reset</a></td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">2</td>
+<td></td>
+</tr><tr class="s8">
+<td><a href="#inst_tag_top.me.obj.apb_cov.addr"  onclick="checkLink(this)" target="detailFrame">addr</a></td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">4</td>
+<td class="rt">80.00 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">8</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_top.me.obj.apb_cov.selx"  onclick="checkLink(this)" target="detailFrame">selx</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_top.me.obj.apb_cov.enable"  onclick="checkLink(this)" target="detailFrame">enable</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_top.me.obj.apb_cov.write"  onclick="checkLink(this)" target="detailFrame">write</a></td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">2</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_top.me.obj.apb_cov.PREADY"  onclick="checkLink(this)" target="detailFrame">PREADY</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_top.me.obj.apb_cov.error"  onclick="checkLink(this)" target="detailFrame">error</a></td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s5">
+<td><a href="#inst_tag_top.me.obj.apb_cov.wdata"  onclick="checkLink(this)" target="detailFrame">wdata</a></td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_top.me.obj.apb_cov.rdata"  onclick="checkLink(this)" target="detailFrame">rdata</a></td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='spi_test_pkg::spi_scoreboard::apb_cov'>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.reset"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.reset">Summary for Variable reset</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s5">
+<td>Automatically Generated Bins</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for reset</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>[auto[0]]</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[1]</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.addr"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.addr">Summary for Variable addr</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s8">
+<td>Automatically Generated Bins</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">4</td>
+<td class="rt">80.00 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for addr</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>[auto[3]]</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td><th nowrap width=80></th></tr><tr class="wht">
+<td>add</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+<td></td>
+</tr><tr class="wht">
+<td>[auto[4]]</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+<td></td>
+</tr><tr class="wht">
+<td nowrap>[auto[6] - auto[7]]</td>
+<td align=center nowrap>--</td>
+<td>Excluded</td>
+<td>(2 bins)</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[0]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[1]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[5]</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.selx"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.selx">Summary for Variable selx</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for selx</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>sel</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.enable"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.enable">Summary for Variable enable</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for enable</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>enb</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.write"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.write">Summary for Variable write</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>Automatically Generated Bins</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for write</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[0]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[1]</td>
+<td class="rt">4</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.PREADY"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.PREADY">Summary for Variable PREADY</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for PREADY</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>rdy</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.error"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.error">Summary for Variable error</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for error</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>err</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.wdata"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.wdata">Summary for Variable wdata</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s5">
+<td>User Defined Bins</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for wdata</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>wr_high</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>wr_low</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.rdata"></a><span class="repname" id="inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.rdata">Summary for Variable rdata</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for rdata</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>rd_high</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>rd_low</td>
+<td class="rt">4</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+</div>
+<div name='top.me.obj.apb_cov'>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.reset"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.reset">Summary for Variable reset</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s5">
+<td>Automatically Generated Bins</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for reset</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>[auto[0]]</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[1]</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.addr"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.addr">Summary for Variable addr</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s8">
+<td>Automatically Generated Bins</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">4</td>
+<td class="rt">80.00 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for addr</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>[auto[3]]</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td><th nowrap width=80></th></tr><tr class="wht">
+<td>add</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+<td></td>
+</tr><tr class="wht">
+<td>[auto[4]]</td>
+<td class="rt">0</td>
+<td>Excluded</td>
+<td></td>
+</tr><tr class="wht">
+<td nowrap>[auto[6] - auto[7]]</td>
+<td align=center nowrap>--</td>
+<td>Excluded</td>
+<td>(2 bins)</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[0]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[1]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[5]</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.selx"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.selx">Summary for Variable selx</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for selx</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>sel</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.enable"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.enable">Summary for Variable enable</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for enable</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>enb</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.write"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.write">Summary for Variable write</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>Automatically Generated Bins</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Automatically Generated Bins for write</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>auto[0]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>auto[1]</td>
+<td class="rt">4</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.PREADY"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.PREADY">Summary for Variable PREADY</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for PREADY</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>rdy</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.error"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.error">Summary for Variable error</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for error</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>err</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.wdata"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.wdata">Summary for Variable wdata</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s5">
+<td>User Defined Bins</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">50.00 </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for wdata</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Uncovered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td><td>NUMBER</td></tr><tr class="s3">
+<td>wr_high</td>
+<td class="rt">0</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>wr_low</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_top.me.obj.apb_cov.rdata"></a><span class="repname" id="inst_tag_top.me.obj.apb_cov.rdata">Summary for Variable rdata</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">2</td>
+<td class="rt">0</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for rdata</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>rd_high</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>rd_low</td>
+<td class="rt">4</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="spi_test_pkg::spi_scoreboard::apb_cov">
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.reset">Variable : reset</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.addr">Variable : addr</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.selx">Variable : selx</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.enable">Variable : enable</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.write">Variable : write</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.PREADY">Variable : PREADY</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.error">Variable : error</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.wdata">Variable : wdata</a>    </li>
+    <li>
+      <a href="#inst_tag_spi_test_pkg::spi_scoreboard::apb_cov.rdata">Variable : rdata</a>    </li>
+  </ul>
+  <ul name="top.me.obj.apb_cov">
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.reset">Variable : reset</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.addr">Variable : addr</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.selx">Variable : selx</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.enable">Variable : enable</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.write">Variable : write</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.PREADY">Variable : PREADY</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.error">Variable : error</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.wdata">Variable : wdata</a>    </li>
+    <li>
+      <a href="#inst_tag_top.me.obj.apb_cov.rdata">Variable : rdata</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>
