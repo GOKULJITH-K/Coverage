@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: spi_shift_reg</title>
+<link type="text/css" rel="stylesheet" href="css/urg.css">
+<link type="text/css" rel="stylesheet" href="css/layout.css">
+<link type="text/css" rel="stylesheet" href="css/breadcrumb.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/sortable.js"></script>
+<script type="text/javascript" src="js/layout.js"></script>
+<script type="text/javascript" src="js/breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="index.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | groups | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_spi_shift_reg'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_spi_shift_reg')">spi_shift_reg</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt"><a href="mod0.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod0.html#Cond" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod0.html#Toggle" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod0.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home1/B120/GokulK/SPI_project_RN/coverage/../rtl/spi_shift_reg.v')">/home1/B120/GokulK/SPI_project_RN/coverage/../rtl/spi_shift_reg.v</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod0.html#inst_tag_0"  onclick="showContent('inst_tag_0')">spi_shift_reg_tb.DUT</a></td>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt"><a href="mod0.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod0.html#Cond" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod0.html#Toggle" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod0.html#Branch" >100.00</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_spi_shift_reg'>
+<hr>
+<a name="inst_tag_0"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_0" >spi_shift_reg_tb.DUT</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt"><a href="mod0.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod0.html#Cond" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod0.html#Toggle" >100.00</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod0.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s9 cl rt"> 95.16</td>
+<td class="s9 cl rt"> 90.32</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod1.html#inst_tag_1" >spi_shift_reg_tb</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_spi_shift_reg'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod0.html" >spi_shift_reg</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">TOTAL</td><td></td><td>71</td><td>71</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>20</td><td>3</td><td>3</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>32</td><td>4</td><td>4</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>46</td><td>32</td><td>32</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>120</td><td>32</td><td>32</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+19                      begin
+20         1/1              if(recieve_data_i)
+21         1/1                  data_miso_o=temp_reg;
+22                          else 
+23         1/1                  data_miso_o=8'h00;
+24                      end
+25                      
+26                      /*****************************************************************************
+27                      TRANSMIT DATA REGISTER LOGIC(SHIFT REGISTER LOAD)
+28                      ******************************************************************************/
+29                      
+30                      always@(posedge PCLK or negedge PRESET_n)
+31                      begin
+32         1/1              if(PRESET_n==1'b0)
+33         1/1                  shift_register&lt;=8'b0;
+34         1/1              else if(send_data_i)
+35         1/1                   shift_register&lt;=data_mosi_i;
+                        MISSING_ELSE
+36                             
+37                      end
+38                      
+39                      /***************************************************************************
+40                      TRANSMIT DATA BIT BY BIT MOSI
+41                      ****************************************************************************/
+42                      
+43                      always@(posedge PCLK or negedge PRESET_n)
+44                      begin
+45                      
+46         1/1          if(PRESET_n==1'b0)
+47                      begin
+48         1/1               counter&lt;=3'd0;
+49         1/1               counter1&lt;=3'd7;
+50         1/1               mosi_o&lt;=1'b0;
+51                      end
+52                      else 
+53                        begin
+54         1/1               if(!ss_i) begin
+55         1/1              if((!cpha_i &amp;&amp; cpol_i) ||( cpha_i &amp;&amp; !cpol_i))
+56                          begin
+57         1/1                   if(lsbfe_i) begin
+58         1/1                  if(counter&lt;=3'd7) begin
+59         1/1                     if(mosi_send_sclk0_i) begin
+60         1/1                      mosi_o&lt;=shift_register[counter];
+61         1/1                      counter&lt;=counter+1'b1;
+62                                         end
+63                      						 else
+64         1/1          						 counter&lt;=counter;
+65                              end
+66                                      else
+67         1/1                      counter&lt;=3'd0;
+68                                end
+69                                else begin
+70         1/1                    if(counter1&gt;=3'd0) begin
+71         1/1                      if(mosi_send_sclk0_i) begin
+72         1/1                          mosi_o&lt;=shift_register[counter1];
+73         1/1                          counter1&lt;=counter1-1'b1;
+74                                  end
+75                      				else
+76         1/1          				counter1&lt;=counter1;
+77                              end
+78                              else
+79         1/1                      counter1&lt;=3'd7;
+80                                  end
+81                             end
+82                             else
+83                             begin
+84         1/1                   if(lsbfe_i) begin
+85         1/1                  if(counter&lt;=3'd7) begin
+86         1/1                     if(mosi_send_sclk_i) begin
+87         1/1                      mosi_o&lt;=shift_register[counter];
+88         1/1                      counter&lt;=counter+1'b1;
+89                                         end
+90                      				else
+91         1/1          						counter&lt;=counter;
+92                              end
+93                                      else
+94         1/1                      counter&lt;=3'd0;
+95                                end
+96                                else begin
+97         1/1                    if(counter1&gt;=3'd0) begin
+98         1/1                      if(mosi_send_sclk_i) begin
+99         1/1                          mosi_o&lt;=shift_register[counter1];
+100        1/1                          counter1&lt;=counter1-1'b1;
+101                                 end
+102                     				else
+103        1/1          				   counter1&lt;=counter1;
+104                             end
+105                             else
+106        1/1                      counter1&lt;=3'd7;
+107                                   end
+108                            end
+109                         end
+                        MISSING_ELSE
+110                      end
+111                     end
+112                     
+113                     /***************************************************************************
+114                     RECIEVE DATA BIT BY BIT(MISO)
+115                     ****************************************************************************/
+116                     
+117                     always@(posedge PCLK or negedge PRESET_n)
+118                     begin
+119                     
+120        1/1          if(PRESET_n==1'b0)
+121                     begin
+122        1/1               counter2&lt;=3'd0;
+123        1/1               counter3&lt;=3'd7;
+124        1/1               temp_reg&lt;=8'b0;
+125                     end
+126                     else 
+127                       begin
+128        1/1               if(!ss_i) begin
+129        1/1              if((!cpha_i &amp;&amp; cpol_i )||( cpha_i &amp;&amp; !cpol_i))
+130                         begin
+131        1/1                   if(lsbfe_i) begin
+132        1/1                  if(counter2&lt;=3'd7) begin
+133        1/1                     if(miso_recieve_sclk0_i) begin
+134        1/1                      temp_reg[counter2]&lt;=miso_i;
+135        1/1                      counter2&lt;=counter2+1'b1;
+136                                        end
+137                     						 else
+138        1/1          						 counter2&lt;=counter2;
+139                             end
+140                                     else
+141        1/1                      counter2&lt;=3'd0;
+142                               end
+143                               else begin
+144        1/1                    if(counter3&gt;=3'd0) begin
+145        1/1                      if(miso_recieve_sclk0_i) begin
+146        1/1                          temp_reg[counter3]&lt;=miso_i;
+147        1/1                          counter3&lt;=counter3-1'b1;
+148                                 end
+149                     				else
+150        1/1          				counter3&lt;=counter3;
+151                             end
+152                             else
+153        1/1                      counter3&lt;=3'd7;
+154                                   end
+155                            end
+156                            else
+157                            begin
+158        1/1                   if(lsbfe_i) begin
+159        1/1                  if(counter2&lt;=3'd7) begin
+160        1/1                     if(miso_recieve_sclk_i) begin
+161        1/1                      temp_reg[counter2]&lt;=miso_i;
+162        1/1                      counter2&lt;=counter2+1'b1;
+163                                        end
+164                     						 else
+165        1/1          						 counter2&lt;=counter2;
+166                             end
+167                                     else
+168        1/1                      counter2&lt;=3'd0;
+169                               end
+170                               else begin
+171        1/1                    if(counter3&gt;=3'd0) begin
+172        1/1                      if(miso_recieve_sclk_i) begin
+173        1/1                          temp_reg[counter3]&lt;=miso_i;
+174        1/1                          counter3&lt;=counter3-1'b1;
+175                                 end
+176                     				else
+177        1/1          				counter3&lt;=counter3;
+178                             end
+179                             else
+180        1/1                      counter3&lt;=3'd7;
+181                                   end
+182                          end
+183                       end
+                        MISSING_ELSE
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod0.html" >spi_shift_reg</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">Conditions</td><td>18</td><td>18</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">Logical</td><td>18</td><td>18</td><td>100.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       55
+ EXPRESSION ((((!cpha_i)) &amp;&amp; cpol_i) || (cpha_i &amp;&amp; ((!cpol_i))))
+             -----------1-----------    -----------2-----------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       55
+ SUB-EXPRESSION (((!cpha_i)) &amp;&amp; cpol_i)
+                 -----1-----    ---2--
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       55
+ SUB-EXPRESSION (cpha_i &amp;&amp; ((!cpol_i)))
+                 ---1--    -----2-----
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       129
+ EXPRESSION ((((!cpha_i)) &amp;&amp; cpol_i) || (cpha_i &amp;&amp; ((!cpol_i))))
+             -----------1-----------    -----------2-----------
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       129
+ SUB-EXPRESSION (((!cpha_i)) &amp;&amp; cpol_i)
+                 -----1-----    ---2--
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       129
+ SUB-EXPRESSION (cpha_i &amp;&amp; ((!cpol_i)))
+                 ---1--    -----2-----
+</pre>
+<table class="noborder">
+<col span="2" width="40">
+<tr><th>-1-</th><th>-2-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td>1</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod0.html" >spi_shift_reg</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s10">
+<td>Totals</td>
+<td class="rt">22</td>
+<td class="rt">22</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Total Bits</td>
+<td class="rt">116</td>
+<td class="rt">116</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">58</td>
+<td class="rt">58</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">58</td>
+<td class="rt">58</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s10">
+<td>Ports</td>
+<td class="rt">16</td>
+<td class="rt">16</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Port Bits</td>
+<td class="rt">60</td>
+<td class="rt">60</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">30</td>
+<td class="rt">30</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">30</td>
+<td class="rt">30</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s10">
+<td>Signals</td>
+<td class="rt">6</td>
+<td class="rt">6</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>Signal Bits</td>
+<td class="rt">56</td>
+<td class="rt">56</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">28</td>
+<td class="rt">28</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">28</td>
+<td class="rt">28</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>PCLK</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>PRESET_n</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>ss_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>send_data_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>lsbfe_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cpha_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>cpol_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>miso_recieve_sclk_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>miso_recieve_sclk0_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>mosi_send_sclk_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>mosi_send_sclk0_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>data_mosi_i[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>miso_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>recieve_data_i</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>mosi_o</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>data_miso_o[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>shift_register[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>temp_reg[7:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>counter[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>counter1[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>counter2[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>counter3[2:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod0.html" >spi_shift_reg</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s10">
+<td>Branches</td>
+<td></td>
+<td class="rt">33</td>
+<td class="rt">33</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">20</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">32</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">46</td>
+<td class="rt">14</td>
+<td class="rt">14</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">120</td>
+<td class="rt">14</td>
+<td class="rt">14</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+20             if(recieve_data_i)
+               <font color = "green">-1-</font>  
+21                 data_miso_o=temp_reg;
+           <font color = "green">        ==></font>
+22             else 
+23                 data_miso_o=8'h00;
+           <font color = "green">        ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+32             if(PRESET_n==1'b0)
+               <font color = "green">-1-</font>  
+33                 shift_register<=8'b0;
+           <font color = "green">        ==></font>
+34             else if(send_data_i)
+                    <font color = "green">-2-</font>  
+35                  shift_register<=data_mosi_i;
+           <font color = "green">         ==></font>
+                    MISSING_ELSE
+           <font color = "green">         ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+46         if(PRESET_n==1'b0)
+           <font color = "green">-1-</font>  
+47         begin
+48              counter<=3'd0;
+           <font color = "green">     ==></font>
+49              counter1<=3'd7;
+50              mosi_o<=1'b0;
+51         end
+52         else 
+53           begin
+54              if(!ss_i) begin
+                <font color = "green">-2-</font>  
+55             if((!cpha_i && cpol_i) ||( cpha_i && !cpol_i))
+               <font color = "green">-3-</font>  
+56             begin
+57                  if(lsbfe_i) begin
+                    <font color = "green">-4-</font>  
+58                 if(counter<=3'd7) begin
+                   <font color = "green">-5-</font>  
+59                    if(mosi_send_sclk0_i) begin
+                      <font color = "green">-6-</font>  
+60                     mosi_o<=shift_register[counter];
+           <font color = "green">            ==></font>
+61                     counter<=counter+1'b1;
+62                            end
+63         						 else
+64         						 counter<=counter;
+           <font color = "green">						 ==></font>
+65                 end
+66                         else
+67                     counter<=3'd0;
+           <font color = "green">            ==></font>
+68                   end
+69                   else begin
+70                   if(counter1>=3'd0) begin
+                     <font color = "green">-7-</font>  
+71                     if(mosi_send_sclk0_i) begin
+                       <font color = "green">-8-</font>  
+72                         mosi_o<=shift_register[counter1];
+           <font color = "green">                ==></font>
+73                         counter1<=counter1-1'b1;
+74                     end
+75         				else
+76         				counter1<=counter1;
+           <font color = "green">				==></font>
+77                 end
+78                 else
+79                     counter1<=3'd7;
+           <font color = "green">            ==></font>
+80                     end
+81                end
+82                else
+83                begin
+84                  if(lsbfe_i) begin
+                    <font color = "green">-9-</font>  
+85                 if(counter<=3'd7) begin
+                   <font color = "green">-10-</font>  
+86                    if(mosi_send_sclk_i) begin
+                      <font color = "green">-11-</font>  
+87                     mosi_o<=shift_register[counter];
+           <font color = "green">            ==></font>
+88                     counter<=counter+1'b1;
+89                            end
+90         				else
+91         						counter<=counter;
+           <font color = "green">						==></font>
+92                 end
+93                         else
+94                     counter<=3'd0;
+           <font color = "green">            ==></font>
+95                   end
+96                   else begin
+97                   if(counter1>=3'd0) begin
+                     <font color = "green">-12-</font>  
+98                     if(mosi_send_sclk_i) begin
+                       <font color = "green">-13-</font>  
+99                         mosi_o<=shift_register[counter1];
+           <font color = "green">                ==></font>
+100                        counter1<=counter1-1'b1;
+101                    end
+102        				else
+103        				   counter1<=counter1;
+           <font color = "green">				   ==></font>
+104                end
+105                else
+106                    counter1<=3'd7;
+           <font color = "green">            ==></font>
+107                      end
+108               end
+109            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>-10-</th><th nowrap width=80>-11-</th><th nowrap width=80>-12-</th><th nowrap width=80>-13-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+120        if(PRESET_n==1'b0)
+           <font color = "green">-1-</font>  
+121        begin
+122             counter2<=3'd0;
+           <font color = "green">     ==></font>
+123             counter3<=3'd7;
+124             temp_reg<=8'b0;
+125        end
+126        else 
+127          begin
+128             if(!ss_i) begin
+                <font color = "green">-2-</font>  
+129            if((!cpha_i && cpol_i )||( cpha_i && !cpol_i))
+               <font color = "green">-3-</font>  
+130            begin
+131                 if(lsbfe_i) begin
+                    <font color = "green">-4-</font>  
+132                if(counter2<=3'd7) begin
+                   <font color = "green">-5-</font>  
+133                   if(miso_recieve_sclk0_i) begin
+                      <font color = "green">-6-</font>  
+134                    temp_reg[counter2]<=miso_i;
+           <font color = "green">            ==></font>
+135                    counter2<=counter2+1'b1;
+136                           end
+137        						 else
+138        						 counter2<=counter2;
+           <font color = "green">						 ==></font>
+139                end
+140                        else
+141                    counter2<=3'd0;
+           <font color = "green">            ==></font>
+142                  end
+143                  else begin
+144                  if(counter3>=3'd0) begin
+                     <font color = "green">-7-</font>  
+145                    if(miso_recieve_sclk0_i) begin
+                       <font color = "green">-8-</font>  
+146                        temp_reg[counter3]<=miso_i;
+           <font color = "green">                ==></font>
+147                        counter3<=counter3-1'b1;
+148                    end
+149        				else
+150        				counter3<=counter3;
+           <font color = "green">				==></font>
+151                end
+152                else
+153                    counter3<=3'd7;
+           <font color = "green">            ==></font>
+154                      end
+155               end
+156               else
+157               begin
+158                 if(lsbfe_i) begin
+                    <font color = "green">-9-</font>  
+159                if(counter2<=3'd7) begin
+                   <font color = "green">-10-</font>  
+160                   if(miso_recieve_sclk_i) begin
+                      <font color = "green">-11-</font>  
+161                    temp_reg[counter2]<=miso_i;
+           <font color = "green">            ==></font>
+162                    counter2<=counter2+1'b1;
+163                           end
+164        						 else
+165        						 counter2<=counter2;
+           <font color = "green">						 ==></font>
+166                end
+167                        else
+168                    counter2<=3'd0;
+           <font color = "green">            ==></font>
+169                  end
+170                  else begin
+171                  if(counter3>=3'd0) begin
+                     <font color = "green">-12-</font>  
+172                    if(miso_recieve_sclk_i) begin
+                       <font color = "green">-13-</font>  
+173                        temp_reg[counter3]<=miso_i;
+           <font color = "green">                ==></font>
+174                        counter3<=counter3-1'b1;
+175                    end
+176        				else
+177        				counter3<=counter3;
+           <font color = "green">				==></font>
+178                end
+179                else
+180                    counter3<=3'd7;
+           <font color = "green">            ==></font>
+181                      end
+182             end
+183          end
+             MISSING_ELSE
+           <font color = "green">  ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>-5-</th><th nowrap width=80>-6-</th><th nowrap width=80>-7-</th><th nowrap width=80>-8-</th><th nowrap width=80>-9-</th><th nowrap width=80>-10-</th><th nowrap width=80>-11-</th><th nowrap width=80>-12-</th><th nowrap width=80>-13-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_0">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_spi_shift_reg">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

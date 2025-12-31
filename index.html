@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Functional Coverage Projects</title>
+    <title>Coverage Projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -11,13 +11,8 @@
             margin: 0;
             padding: 30px;
         }
-        h1 {
-            color: #111827;
-        }
-        h2 {
-            color: #1f2937;
-            margin-top: 30px;
-        }
+        h1 { color: #111827; }
+        h2 { color: #1f2937; margin-top: 40px; }
         p {
             color: #374151;
             max-width: 900px;
@@ -27,7 +22,7 @@
             border-collapse: collapse;
             margin-top: 20px;
             width: 100%;
-            max-width: 900px;
+            max-width: 1000px;
             background: #ffffff;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
@@ -35,90 +30,120 @@
             border: 1px solid #d1d5db;
             padding: 12px 16px;
             text-align: left;
+            vertical-align: top;
         }
-        th {
-            background-color: #e5e7eb;
-        }
+        th { background-color: #e5e7eb; }
         a {
             color: #2563eb;
             text-decoration: none;
             font-weight: 500;
         }
-        a:hover {
-            text-decoration: underline;
-        }
+        a:hover { text-decoration: underline; }
         .badge {
-            display: inline-block;
             padding: 4px 10px;
             background: #dbeafe;
             color: #1e3a8a;
             border-radius: 12px;
             font-size: 13px;
         }
-        .note {
+        .section-note {
             font-size: 14px;
             color: #6b7280;
-            margin-top: 20px;
-            max-width: 900px;
         }
     </style>
 </head>
 <body>
 
-<h1>Functional Coverage Projects</h1>
+<h1>Coverage Projects</h1>
 
 <p>
-This site documents a collection of <b>functional coverage–driven verification projects</b>,
-focused on validating protocol behavior using <b>SystemVerilog covergroups</b>,
-<b>assertions</b>, and simulation-based analysis.
+This site documents protocol-based verification and design projects,
+demonstrating the use of
+<b>functional coverage</b>, <b>code coverage</b>, and
+<b>assertion-based verification</b> techniques.
 </p>
 
-<p>
-Each project follows a <b>feature-oriented verification methodology</b>,
-with test-case–wise coverage collection and interactive HTML dashboards.
+<!-- ================= FUNCTIONAL COVERAGE ================= -->
+
+<h2>Functional Coverage – Verification Projects</h2>
+<p class="section-note">
+Protocol behavior validation using SystemVerilog covergroups and assertions
 </p>
-
-
-<h2>Project List</h2>
 
 <table>
     <tr>
         <th>Project ID</th>
         <th>Project Name</th>
+        <th>Coverage Type</th>
         <th>Description</th>
         <th>Status</th>
         <th>Links</th>
     </tr>
+
     <tr>
         <td>Project 1</td>
         <td><b>SPI Verification</b></td>
+        <td><b>Functional Coverage</b></td>
         <td>
-            Verification of the SPI protocol covering multiple modes
-            (CPOL/CPHA), data transfers, slave select behavior,
-            and low power operation using functional coverage and assertions.
+            Coverage-driven verification of the SPI protocol covering
+            CPOL/CPHA modes, data transfers, slave select behavior,
+            and low-power scenarios using SystemVerilog covergroups
+            and SVA assertions.
         </td>
         <td><span class="badge">Completed</span></td>
         <td>
             <a href="SPI_VERIFICATION/spi.html">Coverage Dashboards</a><br>
-            <a href="https://github.com/GOKULJITH-K/SPI_VERIFICATION/blob/main/README.md">Documentation Index</a>
+            <a href="https://github.com/GOKULJITH-K/SPI_VERIFICATION/blob/main/README.md">
+                Documentation
+            </a>
         </td>
     </tr>
 </table>
 
 
-<h2>Verification Methodology</h2>
-
-<p>
-The following principles are consistently applied across all projects:
+<h2>Code Coverage – Design Projects</h2>
+<p class="section-note">
+RTL implementation validation using structural and code-based metrics
 </p>
 
-<ul>
-    <li>Feature-based functional coverage</li>
-    <li>Directed and constrained-random stimulus</li>
-    <li>Assertion-based protocol checking</li>
-    <li>Per-test-case coverage dashboards generated using <b>Synopsys URG</b></li>
-</ul>
+<table>
+    <tr>
+        <th>Project ID</th>
+        <th>Project Name</th>
+        <th>Coverage Type</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Links</th>
+    </tr>
 
+    <tr>
+        <td>Project 2</td>
+        <td><b>SPI Design</b></td>
+        <td><b>Code Coverage</b></td>
+        <td>
+            RTL design of the SPI controller validated using
+            code coverage metrics including
+            line, toggle, condition, and FSM coverage
+            to ensure implementation completeness.
+        </td>
+        <td><span class="badge">Completed</span></td>
+        <td>
+            <a href="SPI_DESIGN/spi.html">Coverage Dashboards</a><br>
+            <a href="https://github.com/GOKULJITH-K/SPI_DESIGN/blob/main/README.md">
+                Documentation
+            </a>
+        </td>
+    </tr>
+</table>
+
+<h2>Coverage Methodology</h2>
+
+<ul>
+    <li>Functional coverage for protocol feature validation</li>
+    <li>Code coverage for RTL completeness and quality</li>
+    <li>Assertion-based checking (SVA)</li>
+    <li>Coverage reports generated using <b>Synopsys URG</b></li>
+</ul>
 
 </body>
 </html>
